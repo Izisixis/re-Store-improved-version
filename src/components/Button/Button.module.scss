@@ -1,3 +1,5 @@
+@import '../../styles/variables.scss';
+
 .root {
     border: none;
     padding: 1em;
@@ -6,5 +8,5 @@
 }
 
 .root:hover{
-    background-color: #eaeaea;
+    background-color: #{$light-grey};
 }

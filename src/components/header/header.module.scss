@@ -1,3 +1,5 @@
+@import '../../styles/variables.scss';
+
 .root {
     display: flex;
     justify-content: space-between;
@@ -9,4 +11,25 @@
 .logo{
     height: 3em;
     width: 6em;
+}
+
+.search {
+    display: flex;
+    height: 2em;
+    input {
+        outline: none;
+        border: none;
+    
+        background-color: #{$light-grey};
+    
+        padding: .5em 1em .5em 0;
+        border-radius: 0 .5em .5em 0;
+        
+    }
+    
+    svg {
+        background-color: #{$light-grey};
+        height: 2em;
+        border-radius: .5em 0 0 .5em ;
+    }
 }
